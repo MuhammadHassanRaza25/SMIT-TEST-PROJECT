@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    padding-left: 8%;
+    padding-right: 8%;
+    padding: 2%;
+    background-color:#003b95 !important;
+    height: 80vh;
+    align-items: flex-start;
+    font-weight: 500;
+    position: relative;
+}
+.navbar-brand{
+    color: white;
+}
+.navbar li a{
+  color:white;
+}
+.navbar li a:hover{
+    color:white;
+}
+.nav-item a button{
+    background-color: white;
+    color:blue;
+    border: none;
+    padding: 7px;
+    border-radius: 8px;
+}
+.Lbtn{
+    position: absolute;
+    top:15%;
+    left: 9%;
+}
+.Lbtn button{
+    background-color: #003b95;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+}
+.Lbtn button:hover{
+    background-color: blue;
+}
+.Lbtn #BTN button{
+    background-color: #003b95;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    border: 1px solid white;
+}
+.PARANAV{
+    position: absolute;
+    top:40%;
+    left: 9%;
+}
+.PARANAV h1{
+    color: white;
+    font-weight: 700;
+    font-size: 60px;
+}
+.PARANAV p{
+    color: white;
+    font-size: 30px;
+}
+.INPUTS{
+    position: absolute;
+    top:76%;
+    left: 20%;
+}
+.INPUTS input{
+    padding: 15px;
+}
+.INPUTS select{
+    padding: 18px;
+}   
+.INPUTS button{
+    padding: 15px;
+    background-color: #003b95;
+    color: white;
+    border: none;
+    border: 1px solid white;
+}
+.Text{
+    margin-top: 6%;
+    margin: 10%;
+}
+.bannerimage{
+    margin-top: -8%;
+    margin-left: 10%;
+    position: relative;
+}
+.bannerimage img{
+    border-radius: 10px;
+    width: 90%;
+}
+.imgt{
+    position: absolute;
+    top: 123%;
+    left: 12%;
+    color: white;
+}
+.imgt button{
+    background-color: rgb(0, 0, 255);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.imgt button:hover{
+    background-color: rgb(47, 47, 255);
+}
+.text2P{
+    margin: 10%;
+    margin-top: -10%;
+}
+#TB{
+    border: none;
+    border: 1px solid blue;
+    background-color: #c3dbff;
+    border-radius: 20px;
+    padding: 10px;
+    color: blue;
+}
+.text2 button{
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid blue;
+}
+.card{
+    width: 30%;
+    margin: 4%;
+}
+.card img{
+    width: 100%;
+}
