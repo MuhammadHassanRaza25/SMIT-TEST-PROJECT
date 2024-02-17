@@ -16,6 +16,10 @@
 .navbar-brand{
     color: white;
 }
+.navbar-brand:hover{
+    text-shadow: 1px 1px 5px white;
+    color: white;
+}
 .navbar li a{
   color:white;
 }
@@ -28,6 +32,11 @@
     border: none;
     padding: 7px;
     border-radius: 8px;
+}
+.nav-item a button:hover{
+    background-color: #145ac2;
+    color: white;
+    transition: all 0.5s;
 }
 .Lbtn{
     position: absolute;
@@ -69,20 +78,43 @@
 .INPUTS{
     position: absolute;
     top:76%;
-    left: 20%;
+    left: 14%;
+    width: 80%;
 }
 .INPUTS input{
     padding: 15px;
+    border: 3px solid #febb02;
+    border-radius: 5px;
+    width: 30%;
+    box-shadow: 1px 1px 5px white;
+}
+.INPUTS input:focus{
+    outline: none;
+}
+.INPUTS input:focus::placeholder{
+    padding-left: 3%;
+    color: blue;
+    transition: all 0.5s;
+}
+#check{
+    width: 2%;
 }
 .INPUTS select{
     padding: 18px;
+    border: 3px solid #febb02;
+    border-radius: 5px;
+    width: 10%;
+    box-shadow: 1px 1px 5px white;
 }   
 .INPUTS button{
     padding: 15px;
-    background-color: #003b95;
-    color: white;
     border: none;
-    border: 1px solid white;
+    width: 10%;
+    box-shadow: 1px 1px 5px white;
+    background-color: #003b95;
+    border: 3px solid #febb02;
+    border-radius: 5px;
+    color: white;
 }
 .Text{
     margin-top: 6%;
@@ -131,10 +163,74 @@
     padding: 10px;
     border: 1px solid blue;
 }
+.cardParent{
+   display: flex;
+   margin: 6%;
+   margin-top: -10%;
+}
 .card{
-    width: 30%;
+    width: 20%;
     margin: 4%;
+    text-align: center;
+    border-radius: 10px;
 }
 .card img{
     width: 100%;
+    border-radius: 10px;
+}
+.card h3{
+    padding-top: 2%;
+}
+.subscribe{
+    text-align: center;
+    background-color:#00224f;
+    color: white;
+    width: 100%;
+    padding: 20px;
+}
+.subscribe input{
+   padding: 10px;
+   border-radius: 10px;
+   width: 50%;
+   border: none;
+}
+.subscribe input:focus{
+    outline:none;
+}
+.subscribe input:focus::placeholder{
+      color: #003b95;
+      padding-left: 3%;
+      transition: all 0.5s;
+}
+.subscribe button{
+   background-color: #145ac2;
+   color: white;
+   padding: 10px;
+   border: none;
+   border-radius: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: #003b95;
+    color: white;
+    margin-top: 5%;
+    padding: 5%;
+}
+.mobile{
+    display: flex;
+    flex-direction: column;
+}
+.mobile h1{
+    font-size: 30px;
+}
+.mobile a{
+    text-decoration: none;
+    color: white;
+}
+.mobile a:hover{
+    text-decoration: none;
+    color: rgb(240, 63, 63);
 }
